@@ -6,13 +6,13 @@ void main()
 
   clrscr();  // screen saaf karne ke liye
   printf("\n Enter first no: ");
-  scanf("%f", &x)  // user se pehla number liya aur x me daal diya
+  scanf("%f", &x);  // user se pehla number liya aur x me daal diya
 
   printf("\n Enter Second no: ");
-  scanf("%f", &y)  // dusra number y me daal diya
+  scanf("%f", &y) ; // dusra number y me daal diya
 
   z = x + y;  // dono ko jod ke z me daal diya
 
-  printf("\n Sum of two no is %f", z)
+  printf("\n Sum of two no is %f", z);
   getch();
 }
