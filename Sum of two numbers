@@ -2,7 +2,7 @@
 #include <conio.h>
 void main()
 {
-  float x, y, z   // x,y,z 3 dabbe banaye jisme point wale number aayenge
+  float x, y, z; // x,y,z 3 dabbe banaye jisme point wale number aayenge
 
   clrscr();  // screen saaf karne ke liye
   printf("\n Enter first no: ");
