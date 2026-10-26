@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+{
+    float avg, som;
+    int mark1, mark2, mark3;
+    printf(" Enter mark 1; mark 2; mark 3; ");
+    scanf("%d %d %d",&mark1, &mark2, &mark3);
+    som = mark1 + mark2+ mark3;
+    avg= som / 3;
+    printf("\n Average of three no : %f ", avg);
+
+    return 0;
+}
