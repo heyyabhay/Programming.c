@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main() {
+    float bp=20000, da,hra,gross,netsal,pf=1000;
+    da=bp*18/100;
+     hra=bp*30/100;
+     gross=bp+da+hra;
+     netsal=gross-pf;
+     printf("bp =%f\n",bp);
+      printf("da 18%% =%f\n",da);
+       printf("hra 30%% =%f\n",hra);
+        printf("gross =%f\n",gross);
+         printf("netsalary =%f",netsal);
+   
+       return 0;
