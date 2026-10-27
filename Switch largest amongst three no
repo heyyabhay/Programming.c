@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main()
+{
+   int a,b,c;
+   printf("Enter first number : ");
+   scanf("%d",&a);
+   printf("Enter second number : ");
+   scanf("%d",&b);
+   printf("Enter thrid number : ");
+   scanf("%d",&c);
+    int ch;
+    if(a>b && a>c) ch=1;
+    if(b>c) ch=2;
+    else ch=3;
+    switch (ch)
+    {
+        case 1: printf("largest is %d",a);
+        break;
+         case 2: printf("largest is %d",b);
+        break;
+         case 3: printf("largest is %d",c);
+        break;
+    }
+    return 0;
+}
